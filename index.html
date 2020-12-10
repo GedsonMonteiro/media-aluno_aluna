@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Média do Aluno(a)</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="center">
+      <h3>Média Final</h3><br>
+    
+    <strong><form id="form1">Aluno <input name="name1" type="text" size="10"></form></strong>
+    <br>
+
+      <form id="form2">Português <input name="name2" type="text" size="2"></form><br>
+      <form id="form3">Matemática <input name="name3" type="text" size="2"></form><br>
+      <form id="form4">Ciência <input name="name4" type="text" size="2"></form><br>
+      <form id="form5">Geografia <input name="name5" type="text" size="2"></form><br>
+
+    <div class="form-field">
+      <button onclick="outputname()">
+      <a class="waves-effect waves-light btn">Ver Média</a></button>
+    </div><br>
+    
+      <div>
+        <p id="demo"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
